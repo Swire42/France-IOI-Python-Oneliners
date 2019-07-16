@@ -1,0 +1,1 @@
+(lambda a,b: [a.append(int(input())) or b.append(int(input())) for i in range(int(input()))] and print("L'équipe", 1+(sum(a)<sum(b)), "a un avantage") or print("Poids total pour l'équipe 1 :", sum(a)) or print("Poids total pour l'équipe 2 :", sum(b)))([], [])

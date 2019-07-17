@@ -1,0 +1,1 @@
+(lambda np,nc,t: [t.append(int(input())) for i in range(np)] and [(lambda a,b: a!=b and ((t.insert(a, t.pop(b)) or t.insert(b, t.pop(a+1))) if a<b else (t.insert(b, t.pop(a)) or t.insert(a, t.pop(b+1)))))(int(input()), int(input())) for i in range(nc)]=="NaN" or [print(i) for i in t])(int(input()), int(input()), [])

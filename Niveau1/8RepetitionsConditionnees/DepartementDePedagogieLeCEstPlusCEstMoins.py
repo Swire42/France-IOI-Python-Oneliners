@@ -1,0 +1,1 @@
+(lambda aim,t: [(lambda n: n!=aim and (t.append(0) or (print("c'est plus") if n<aim else print("c'est moins"))))(int(input())) for i in t] and print("Nombre d'essais nécessaires :", len(t), sep="\n"))(int(input()), [0])

@@ -1,0 +1,1 @@
+(lambda h,f: (h<=5 and f>=8 and print("Tinuviel")) or (h>=10 and f>=10 and print("Calaelen")) or (h<=8 and f<=5 and print("Falarion")) or (h>=12 and f<=7 and print("Dorthonion")))(int(input()), int(input()))

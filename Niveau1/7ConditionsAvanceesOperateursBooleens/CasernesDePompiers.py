@@ -1,0 +1,1 @@
+[(lambda aad,aaf,aod,aof,bad,baf,bod,bof: print(["NON", "OUI"][aad<baf and bad<aaf and aod<bof and bod<aof]))(int(input()), int(input()), int(input()), int(input()),int(input()), int(input()), int(input()), int(input())) for i in range(int(input()))]

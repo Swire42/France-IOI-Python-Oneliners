@@ -1,0 +1,1 @@
+[print(["Impossible", "Peu probable", "Peu probable", "Probable", "Probable", "Très probable"][(178<=int(input())<=182) + (int(input())>=34) + (int(input())<70) + (1-int(input())) + int(input())]) for i in range(int(input()))]

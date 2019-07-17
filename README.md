@@ -1,2 +1,2 @@
 # France-IOI-Python-Oneliners
-Solutions to france-ioi.org, in ONE python line (imports line excluded)
+Solutions aux problèmes de france-ioi.org, en UNE ligne de Python (hors lignes d'imports)
